@@ -43,7 +43,7 @@ ul.posts li {
 }
 
 
-btn {
+.btn {
   background-color: White; /* Blue background */
   border: none; /* Remove borders */
   color: white; /* White text */
@@ -53,7 +53,7 @@ btn {
 }
 
 
-btn:hover {
+.btn:hover {
   opacity: 0.7;
 } 
 
