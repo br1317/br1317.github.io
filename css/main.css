@@ -12,13 +12,7 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
+
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -43,16 +37,21 @@ ul.posts li {
 }
 
 
-.btn {
-  background-color: White; /* Blue background */
-  border: none; /* Remove borders */
-  padding: 12px 16px; /* Some padding */
-  font-size: 16px; /* Set a font size */
-  cursor: pointer; /* Mouse pointer on hover */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
 }
 
+.fa:hover {
+    opacity: 0.7;
+}
 
-.btn:hover {
-  opacity: 0.7;
-} 
+.fa-github-square {
+  background: White;
+}
+
 
