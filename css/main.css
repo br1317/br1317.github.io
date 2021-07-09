@@ -13,11 +13,12 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 
-a {
+.navigation {
     text-decoration: none;
     color: #999;
 }
-a:hover {
+
+.navigation:hover {
     text-decoration: underline;
 }
 
